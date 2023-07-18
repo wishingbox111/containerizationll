@@ -16,7 +16,7 @@
 `docker build -t sample_app`
 
 do docker tag <Image_name = sample_app>:
-docker tag '<IMAGE_NAME>:<IMAGE_TAG>  <REPOSITORY_URI>:<IMAGE_TAG>'
+docker tag *<IMAGE_NAME>:<IMAGE_TAG>  <REPOSITORY_URI>:<IMAGE_TAG>*
 
 more details on the docker tag:
 
