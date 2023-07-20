@@ -18,7 +18,7 @@
 do docker tag <Image_name = sample_app>:
 docker tag *<IMAGE_NAME>:<IMAGE_TAG>  <REPOSITORY_URI>:<IMAGE_TAG>*
 
-   - _in this case, it might be the repository can only carry 1 image tag. to create different image, we might need to create a repository name to create another image_
+   - _ *NOTE:* in this case, it might be the repository can only carry 1 image tag. to create different image, we might need to create a repository name to create another image_
 
 more details on the docker tag:
 
