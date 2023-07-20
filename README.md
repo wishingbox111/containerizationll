@@ -18,6 +18,8 @@
 do docker tag <Image_name = sample_app>:
 docker tag *<IMAGE_NAME>:<IMAGE_TAG>  <REPOSITORY_URI>:<IMAGE_TAG>*
 
+  * - in this case, it might be the repository can only carry 1 image tag. to create different image, we might need to create a repository name to create another image*
+
 more details on the docker tag:
 
 docker tag simple-app-image:latest *<account no.>*.dkr.ecr.ap-southeast-1.amazonaws.com/*<REPOSITORY_NAME>*:latest
