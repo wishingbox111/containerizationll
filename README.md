@@ -16,8 +16,8 @@
   
 `docker build -t sample_app`
 
-(
-- if running locally then use this code. Then run the code for the builded image note adjust both port number- first port:second port :
+
+-( if running locally then use this code. Then run the code for the builded image note adjust both port number- first port:second port :
 
 `docker run -p 8080:80 your-image-name`
 )
