@@ -1,4 +1,5 @@
-# containerizationll Step by Step Guide
+# Assignment for 3.5
+## containerizationll Step by Step Guide
 
 - use the code in this repo, clone it to your repo (repo name should follow aws guidelines, no caps, first character must be a text, etc)
 - use powershell to cd into the repo
