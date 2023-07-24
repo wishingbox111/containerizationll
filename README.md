@@ -12,9 +12,15 @@
 
 `Node index.js` or `npm start`
 
-- Then run the code for building image where sample_app can be any name for image:
-
+- Build Docker image where sample_app can be any name for image:
+  
 `docker build -t sample_app`
+
+(
+- if running locally then use this code. Then run the code for the builded image note adjust both port number- first port:second port :
+
+`docker run -p 8080:80 your-image-name`
+)
 
 do docker tag <Image_name = sample_app>:
 docker tag *<IMAGE_NAME>:<IMAGE_TAG>  <REPOSITORY_URI>:<IMAGE_TAG>*
