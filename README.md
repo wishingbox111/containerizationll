@@ -3,7 +3,7 @@
 
 - use the code in this repo, clone it to your repo (repo name should follow aws guidelines, no caps, first character must be a text, etc)
 - use powershell to cd into the repo
-- in AWS ECR create a private repo as well note the name should be same as your github repo so not to cause confusion
+- in AWS ECR create a private repo as well note the name should be same as your github repo so not to cause confusion (same name is not compulsory)
 - Once code is updated on Github and Desktop, use the steps below:
   
 `Npm install`
