@@ -14,8 +14,15 @@
 
 - Build Docker image where sample_app can be any name for image:
   
-`docker build -t sample_app`
+`docker build -t sample_app . `
 
+* the dot at the end is very important, without it, will give error like:
+---------------------------------------------------------
+**ERROR: "docker buildx build" requires exactly 1 argument.
+See 'docker buildx build --help'.
+
+Usage:  docker buildx build [OPTIONS] PATH | URL | -**
+---------------------------------------------------------
 
 -( if running locally then use this code. Then run the code for the builded image note adjust both port number- first port:second port :
 
