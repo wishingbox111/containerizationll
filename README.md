@@ -12,6 +12,14 @@
 
 `Node index.js` or `npm start`
 
+##short cut for cretaing docker image:
+
+ docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+
+
+##Longer method and details explanation:
+
 - Build Docker image where sample_app can be any name for image:
   
 `docker build -t sample_app . `
